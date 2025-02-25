@@ -23,8 +23,53 @@
     <h5>This is a heading</h5>
     <h6>This is a heading</h6>
     <img src="assets/Vessel hanabi.jpeg" alt="Hanabi, Vessel of rage", width="200px">
-    <a href="https://google.com">Click here</a>
-    <a href="index.html">Another Html file</a>
-    
+    <a href="https://google.com", target="_blank">Click here</a>
+    <a href="index.html" target="_blank">Another Html file</a>
+    <table>
+        <thead>
+           <tr>
+            <th>Ocean</th>
+            <th>Average depth</th>
+            <th>Maximum depth</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pacific ocean</td>
+                <td>42800 m</td>
+                <td>10981m</td>
+            </tr>
+            <tr>
+                <td>Atlantic ocean</td>
+                <td>3800 m</td>
+                <td>8000m</td>
+            </tr>
+        </tbody>
+    </table> 
+    <form>
+        <input type="text", placeholder="Full name", name="name">
+        <input type="password", name="password", placeholder="password">
+        <p>Favourite color?</p>
+        <input type="radio", value="red", name="red", id="red">
+        <label for="red">Red</label>
+        <input type="radio", placeholder="Green", name="Green", id="Green">
+        <label for="Green">Green</label>
+        <input type="radio", placeholder="Blue", name="Blue", id="Blue">
+        <label for="Blue">Blue</label>
+        <div>
+            <input name="country", list="countries", placeholder="Country">
+            <datalist id="countries">
+                <option value="Nigeria"></option>
+                <option value="USA"></option>
+                <option value="Canada"></option>
+                <option value="Kenya"></option>
+                <option value="China"></option>
+                <option value="South Africa"></option>
+            </datalist>
+        </div>
+        <p>Finished filling the form?</p>
+        <input type="checkbox", name="check", placeholder="Check me out">
+        <input type="submit">
+    </form>   
 </body>
 </html>
